@@ -7,11 +7,12 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
       <title>Conf Hawaii</title>
   </head>
   <body>
-
+<!-- HEADER -->
     <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
@@ -42,10 +43,9 @@
         </div>
       </div>
     </nav>
-
+<!-- HEADER -->
 
 <!-- MAIN -->
-
 <section id="main">
   <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
     <div class="carousel-inner">
@@ -60,10 +60,22 @@
       </div>
     </div>
     <div class="overlay">
-      <div class="container">
+      <div class="container d-flex h-100 align-items-center justify-content-center txt-md-right">  <!-- NOTE: SE CENTRA EN bootstrap
+                                                            "d-flex h-100 align-items-center justify-content-center"-->
         <div class="row">
-          <div class="col">
+          <div class="col-md-6 offset-md-6 text-right">
             <h1>Conf Hawaii</h1>
+            <p class="d-none d-md-block">   <!-- NOTE: OCULTAR TEXTO MUY GRANDE EN DISP PEQUEÑOS
+                                            <p class="d-none d-md-block">-->
+              Camote llaga por primera vez a Hawaii! un evento para compartir con
+              nuestra comunidad el conocimiento y experiencia de los expertos que
+              estan creando el futuro de internet.
+              Ven a conocer a miembros de Camote, a otros estudiantes de
+              platzi y a los oradores de primer nivel que tenemos para ti.
+              Te esperamos!
+            </p>
+            <a href="#">Quiero ser orador</a>
+            <button type="button" name="tickets">Comprar tickets</button>
           </div>
         </div>
       </div>
