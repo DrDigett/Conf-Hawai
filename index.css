@@ -3,9 +3,6 @@
   width: 80px
 }
 
-.text-team{
-  color: #97c93e !important;
-}
 
 #main .carousel-inner img{
   max-height: 70vh;
@@ -28,6 +25,18 @@
   z-index: 1;
 }
 
+.text-team{
+  color: #97c93e !important;
+}
+
+.btn-team{
+  background-color: #97c93e;
+  color: white;
+}
+
+.btn-team:hover{
+  background-color: #82ad36;
+}
 
 
 
