@@ -38,6 +38,15 @@
   background-color: #82ad36;
 }
 
+.card a{
+  color: black;
+  font-size: 30px;
+}
+
+.badges{
+  text-align: right;
+}
+
 
 
 #footer{
