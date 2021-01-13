@@ -3,6 +3,9 @@
   width: 80px
 }
 
+button:hover{
+    cursor: pointer;
+}
 
 #main .carousel-inner img{
   max-height: 70vh;
@@ -43,10 +46,26 @@
   font-size: 30px;
 }
 
+#place-time{
+    background-color: #343a40;
+    color: white;
+}
+
+#place-time img{
+  max-width: 100%;
+}
+
+#place-time p{
+  font-size: 17px;
+}
+
 .badges{
   text-align: right;
 }
 
+#orador-text{
+  height: 160px;
+}
 
 
 #footer{
@@ -55,6 +74,15 @@
 
 #footer a{
   color: white;
+}
+
+abbr{
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.form-row .col button abbr{
+  text-decoration: none;
 }
 
 /* important */
